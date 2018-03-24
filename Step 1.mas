@@ -1,0 +1,13 @@
+ORG 120
+STORE W
+LOAD X
+ADD Y
+SUBT Z
+OUTPUT 
+HALT
+
+X, Dec 25
+Y, Dec 44
+Z, Dec 22
+W, Dec 0 
+END

@@ -1,0 +1,30 @@
+     Assembly listing for: Step 1.mas
+                Assembled: Fri Mar 23 13:04:42 CAT 2018
+
+         |         ORG 120           
+120 2129 |         STORE W           
+121 1126 |         LOAD X            
+122 3127 |         ADD Y             
+123 4128 |         SUBT Z            
+124 6000 |         OUTPUT            
+125 7000 |         HALT              
+         |                          
+126 0019 |  X      DEC 25            
+127 002C |  Y      DEC 44            
+128 0016 |  Z      DEC 22            
+129 0000 |  W      DEC 0             
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          W      |   129   | 120
+          X      |   126   | 121
+          Y      |   127   | 122
+          Z      |   128   | 123
+         --------------------------------------------------
+
+
